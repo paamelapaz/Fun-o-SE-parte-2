@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferença entre os valores</title>
+</head>
+<body>
+    <h1>Diferença de valores</h1>
+
+    <div id="resul"></div>
+
+    <script>
+
+    let valor_1 = Number(prompt("Digite um valor"));
+    let valor_2 = Number (prompt("Digite um valor"));
+    let msg;
+
+    if(valor_1 > valor_2){
+        msg = valor_1 - valor_2
+    }else{
+        msg = valor_2 - valor_1
+    }
+
+    document.getElementById ("resul").innerHTML = msg;
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
